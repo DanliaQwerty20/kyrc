@@ -1,5 +1,7 @@
 package io.project.task4;
 
+import io.project.task4.exception.DivisionByZeroException;
+
 public class Calculator {
     private double number1;
     private double number2;
@@ -22,11 +24,13 @@ public class Calculator {
         return result;
     }
 
+
     public void calculate() {
-        if (operation != null) {
+        try {
             result = operation.execute(number1, number2);
-        } else {
-            throw new IllegalStateException("Операция не задана");
+        } catch (DivisionByZeroException e) {
+            System.out.println(e.getMessage());
+            result = Double.NaN;
         }
     }
 }

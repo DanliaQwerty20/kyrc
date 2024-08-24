@@ -1,11 +1,13 @@
 package io.project.task4;
 
+import io.project.task4.exception.DivisionByZeroException;
+
 public class Division implements Operation {
     @Override
-    public double execute(double a, double b) {
-        if (b == 0) {
-            throw new ArithmeticException("Деление на ноль невозможно");
+    public double execute(double number1, double number2) throws DivisionByZeroException {
+        if (number2 == 0) {
+            throw new DivisionByZeroException("Деление на ноль невозможно.");
         }
-        return a / b;
+        return number1 / number2;
     }
 }
