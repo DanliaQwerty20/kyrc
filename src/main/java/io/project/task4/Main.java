@@ -1,10 +1,12 @@
 package io.project.task4;
 
+import io.project.task4.exception.DivisionByZeroException;
+
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws DivisionByZeroException {
         Calculator calculator = new Calculator();
 
         try (Scanner scanner = new Scanner(System.in)) {
@@ -33,4 +35,3 @@ public class Main {
         }
     }
 }
-

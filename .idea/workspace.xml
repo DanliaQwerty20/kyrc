@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="151cb829-fdf1-4805-8ffa-6350be3b1bda" name="Changes" comment="Исправленнная задача с исключением">
+    <list default="true" id="151cb829-fdf1-4805-8ffa-6350be3b1bda" name="Changes" comment="Исправление ошибок при трай-кетче">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/project/task4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/project/task4/Main.java" afterDir="false" />
     </list>
@@ -167,13 +167,22 @@
       <option name="project" value="LOCAL" />
       <updated>1724528267356</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Исправление ошибок при трай-кетче">
+      <option name="closed" value="true" />
+      <created>1724656992081</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1724656992082</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Решение курса" />
     <MESSAGE value="Исправленнная задача с ооп и тестированием" />
     <MESSAGE value="Исправленнная задача с исключением" />
-    <option name="LAST_COMMIT_MESSAGE" value="Исправленнная задача с исключением" />
+    <MESSAGE value="Исправление ошибок при трай-кетче" />
+    <option name="LAST_COMMIT_MESSAGE" value="Исправление ошибок при трай-кетче" />
   </component>
 </project>
